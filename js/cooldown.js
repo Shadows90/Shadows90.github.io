@@ -11,7 +11,7 @@ function distance() {
 		var result;
 		if ((lat1 == lat2) && (lon1 == lon2)) {
 			dist = 0;
-			result = "The distance between " + coord1 + " and " + coord2 + " is " + dist + " km";
+			result = "La distance entre " + coord1 + " et " + coord2 + " est de " + dist + " km";
 		}
 		else {
 			var radlat1 = Math.PI * lat1/180;
@@ -26,7 +26,7 @@ function distance() {
 			dist = dist * 180/Math.PI;
 			dist = dist * 60 * 1.1515;
 			dist = dist * 1.609344;
-			result = "The distance between " + coord1 + " and " + coord2 + " is " + Math.round(dist*100) /100 + " km";
+			result = "La distance entre " + coord1 + " et " + coord2 + " est de " + Math.round(dist*100) /100 + " km";
 			dist = Math.round(dist);
 		}
 		console.log(dist);
@@ -174,13 +174,13 @@ function distance() {
 		var minutes;
 		hours = Math.floor((time % (60 * 24)) / (60));
 		minutes = Math.floor((time % (60)) / 1);
-		result += " and the cooldown is " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m";
+		result += " donc le cooldown est de " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m";
 		document.getElementById("cooldownResult").style.color = "#5EB750";
 		document.getElementById("cooldownResult").innerHTML = result;
 	}
 	catch (err) {
 		document.getElementById("cooldownResult").style.color = "red";
-		document.getElementById("cooldownResult").innerHTML = "<div>&nbsp;</div>Please check your co-ordinates again." + err;
+		document.getElementById("cooldownResult").innerHTML = "<div>&nbsp;</div>Vérifie tes coordonnées.";
 	}
 }
 

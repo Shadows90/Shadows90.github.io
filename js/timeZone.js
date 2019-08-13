@@ -1,5 +1,5 @@
 tippy('.btn', {
-  content: "Copied!",
+  content: "Copié!",
   placement: 'right',
   arrow: 'true',
   animation: 'scale-with-inertia',
@@ -40,8 +40,8 @@ function setClass(els, className, fnName) {
 }
 countdownTimer();
 function countdownTimer() {
-	var startTime = "2019-08-03 16:00:00";
-	var stopTime = "2019-08-03 19:00:00";
+	var startTime = "2019-09-15 11:00:00";
+	var stopTime = "2019-09-15 14:00:00";
 	var allTimeZones = ["Etc/GMT+12", "Etc/GMT+11", "Etc/GMT+10", "Etc/GMT+9", "Etc/GMT+8", "Etc/GMT+7", "Etc/GMT+6", "Etc/GMT+5", "Etc/GMT+4", "Etc/GMT+3", "America/St_Johns", "Etc/GMT+2", "Etc/GMT+1", "Etc/GMT+0",
 						"Etc/GMT-1", "Etc/GMT-2","Etc/GMT-3", "Etc/GMT-4", "Asia/Tehran", "Etc/GMT-5", "Asia/Kolkata", "Asia/Kathmandu", "Etc/GMT-6", "Asia/Yangon", "Etc/GMT-7", "Etc/GMT-8", "Etc/GMT-9", "Australia/Adelaide", "Etc/GMT-10", "Etc/GMT-11", "Etc/GMT-12", "Etc/GMT-13", 
 						"Etc/GMT-14"]  
@@ -61,7 +61,7 @@ function countdownTimer() {
 	var seconds = 0;
 	for (var cnt = 0; cnt < allTimeZones.length; cnt++) {
 		var eventTime = moment.tz(startTime, allTimeZones[cnt]);
-		document.getElementById(buttonId[cnt]).innerHTML = "<strong>" + tzStrings[cnt] + "</strong><br>Event starts at: " + eventTime.local().format("YYYY-MM-DD HH:mm:ss") + " " + moment.tz(moment.tz.guess()).zoneAbbr();
+		document.getElementById(buttonId[cnt]).innerHTML = "<strong>" + tzStrings[cnt] + "</strong><br>L'évenement commence le: " + eventTime.local().format("DD-MM-YYYY HH:mm:ss") + " " + moment.tz(moment.tz.guess()).zoneAbbr();
 	}
 	continueTimer();
 	function continueTimer() {
@@ -75,7 +75,7 @@ function countdownTimer() {
 				hours = Math.floor((distance % (60 * 60 * 24)) / (60 * 60));
 				minutes = Math.floor((distance % (60 * 60)) / (60));
 				seconds = Math.floor((distance % (60)) / 1);
-				document.getElementById(buttonTimerId[cnt]).innerHTML = "Event begins in: " + ("0" + days).slice(-2) + "d " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";		
+				document.getElementById(buttonTimerId[cnt]).innerHTML = "L'évenement commence dans: " + ("0" + days).slice(-2) + "j " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";		
 			}
 			if (distance < 0 && distance >= eventStartTime.unix() - eventStopTime.unix()) {
 				document.getElementById(buttonId[cnt]).style.backgroundColor="#68C6FF";
@@ -84,13 +84,13 @@ function countdownTimer() {
 				hours = Math.floor((distance % (60 * 60 * 24)) / (60 * 60));
 				minutes = Math.floor((distance % (60 * 60)) / (60));
 				seconds = Math.floor((distance % (60)) / 1);
-				document.getElementById(buttonTimerId[cnt]).innerHTML = "Event in progress<br> Event ends in: " + ("0" + days).slice(-2) + "d " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";
+				document.getElementById(buttonTimerId[cnt]).innerHTML = "Evenement en cours<br> Fin d'évenement dans: " + ("0" + days).slice(-2) + "j " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";
 			}
 			if (distance < eventStartTime.unix() - eventStopTime.unix()) {
 				document.getElementById(buttonId[cnt]).active = false;
 				document.getElementById(buttonId[cnt]).disabled = true;
 				document.getElementById(buttonId[cnt]).style.backgroundColor="#DDDDDD";
-				document.getElementById(buttonTimerId[cnt]).innerHTML = "Event has ended";
+				document.getElementById(buttonTimerId[cnt]).innerHTML = "L'évenement est terminé.";
 			}
 		}
 		setTimeout(continueTimer, 1000);
