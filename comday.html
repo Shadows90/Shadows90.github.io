@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  	<title>Ex Community Day</title>
+  	<meta name="author" content="">
+  	<meta name="description" content="">
+  	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  	<link rel="shortcut icon" href="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" type="image/x-icon"/>
+    <link rel="icon" href="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" type="image/ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
+  	<link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" type="text/javascript"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data-2012-2022.js" type="text/javascript"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@4"></script>
+
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
+	  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136695171-1"></script>
+	  <script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'UA-136695171-1');
+	  </script>
+</head>
+<body>
+
+<div class="top">
+<!-- <img src="./resources/images/mewtwo.png" alt="Mewtwo">  -->
+  <h2>Heure Locale</h2>
+  <div id="displayMoment"></div>
+  <br>
+  <p style="text-align: justify; font-size: 12px; font-style: oblique;">
+      <strong>*L'heure locale est determinée par votre l'heure de votre mobile / PC</strong>
+    <p>
+</div>
+
+<ul class="navbar">
+  <li><a href="test.html">Accueil</a></li>
+  <li><a href="timeZone.html">Time Zones</a></li>
+  <li><a href="suicune.html">Time Zones (Suicune)</a></li>
+  <li><a href="cooldown.html">CD Calculateur</a></li>
+  <li><a href="shiny.html">Liste Shiny</a></li>
+  <li><a class="active" href="comday.html">EX Community Day</a></li>
+</ul>
+
+  <body class="body body--fullwidth body--events">
+    <main class="site-container" role="main">
+
+      <header class="header header--events header--transparent" role="banner">
+        <div class="header__inner">
+<!--      <div class="header__logo">
+            <a href="/fr/">
+            <img class="header__logo__image" src="./resources/images/mewtwo.png">
+            </a>
+          </div>
+          <div class="header__nav" role="navigation">
+            <div class="header__nav__item header__nav__item--active">
+              <a class="header__nav__item__link" href="">ACCUEIL</a>
+            </div>
+            <div class="header__nav__item">
+              <a class="header__nav__item__link" href="">TIME ZONES</a>
+            </div>
+            <div class="header__nav__item">
+              <a class="header__nav__item__link" href="">COOLDOWN</a>
+            </div>
+            <div class="header__nav__item">
+              <a class="header__nav__item__link" href="">SHINY</a>
+            </div>
+            <div class="header__nav__item">
+              <a class="header__nav__item__link" href="">EVENT</a>
+            </div>
+          </div> -->
+        </div>
+      </header>
+
+    <div class="page-bg"></div>
+      <article class="sections">
+        <section class="section section--events-list">
+
+          <!-- 3 aout tarsal -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">3</span>
+                      <span class="events-list__event__date__month ng-binding">aout</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Tarsal <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 21 juillet gobou -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">21</span>
+                      <span class="events-list__event__date__month ng-binding">juillet</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Gobou <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8 juin parecool -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">8</span>
+                      <span class="events-list__event__date__month ng-binding">juin</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Parecool <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 19 mai poussifeu -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">19</span>
+                      <span class="events-list__event__date__month ng-binding">mai</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Poussifeu <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 13 avril draby -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">13</span>
+                      <span class="events-list__event__date__month ng-binding">avril</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Draby <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 23 mars arcko -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">23</span>
+                      <span class="events-list__event__date__month ng-binding">mars</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Arcko <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 16 fevrier marcacrin -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">16</span>
+                      <span class="events-list__event__date__month ng-binding">février</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Marcacrin <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 12 janvier kaiminus -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">12</span>
+                      <span class="events-list__event__date__month ng-binding">janvier</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Kaiminus <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10 novembre hericendre-->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">10</span>
+                      <span class="events-list__event__date__month ng-binding">Novembre</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Héricendre <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 21 octobre terhal -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">21</span>
+                      <span class="events-list__event__date__month ng-binding">octobre</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Terhal <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 22 sept germignon -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">22</span>
+                      <span class="events-list__event__date__month ng-binding">sept.</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Germignon <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 11 aout evoli -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">11</span>
+                      <span class="events-list__event__date__month ng-binding">aout</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Evoli <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8 juillet carapuce -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">8</span>
+                      <span class="events-list__event__date__month ng-binding">juillet</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Carapuce <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 16 juin embrylex -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">16</span>
+                      <span class="events-list__event__date__month ng-binding">juin</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Embrylex <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 19 mai salameche -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">19</span>
+                      <span class="events-list__event__date__month ng-binding">mai</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Salamèche <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 15 avril wattouat -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">15</span>
+                      <span class="events-list__event__date__month ng-binding">avril</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Wattouat <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 24 fevrier minidraco -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">24</span>
+                      <span class="events-list__event__date__month ng-binding">février</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : MiniDraco <br>
+                      <img src="./resources/pokemon/dratini.png">
+                      <img src="./resources/pokemon/draco.png">
+                      <img src="./resources/pokemon/dragonite.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- </div> -->
+        </section>
+      </article>
+    </main>
+
+    <script src="js/index.js" type="text/javascript"></script>
+  </body>
+</html>
+
