@@ -9,6 +9,15 @@
   /*float: left;*/
   font-family: Verdana;
 }
+.top-compteur{
+ /* margin: auto;*/
+  width: 100%;
+  text-align: left;
+/*  border: 1px solid #2AA937;*/
+  background-color: #2AA937;
+ /* padding: 10px;*/
+  /*float: left;*/
+}
 .top img{
   margin: auto;
   width: 110px;
