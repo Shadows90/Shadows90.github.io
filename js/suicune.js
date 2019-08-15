@@ -40,8 +40,9 @@ function setClass(els, className, fnName) {
 }
 countdownTimer();
 function countdownTimer() {
-	var startTime = "2019-08-17 16:00:00";
-	var stopTime = "2019-08-17 19:00:00";
+
+	var startTime = "2019-08-17 16:00:00"; // 28/8  18h trio
+	var stopTime = "2019-08-17 19:00:00";	// 28/8 19h trio
 	var allTimeZones = ["Etc/GMT+12", "Etc/GMT+11", "Etc/GMT+10", "Etc/GMT+9", "Etc/GMT+8", "Etc/GMT+7", "Etc/GMT+6", "Etc/GMT+5", "Etc/GMT+4", "Etc/GMT+3", "America/St_Johns", "Etc/GMT+2", "Etc/GMT+1", "Etc/GMT+0",
 						"Etc/GMT-1", "Etc/GMT-2","Etc/GMT-3", "Etc/GMT-4", "Asia/Tehran", "Etc/GMT-5", "Asia/Kolkata", "Asia/Kathmandu", "Etc/GMT-6", "Asia/Yangon", "Etc/GMT-7", "Etc/GMT-8", "Etc/GMT-9", "Australia/Adelaide", "Etc/GMT-10", "Etc/GMT-11", "Etc/GMT-12", "Etc/GMT-13", 
 						"Etc/GMT-14"]  

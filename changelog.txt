@@ -1,0 +1,10 @@
+CHANGE LOG:
+
+Version 1.0 - 15/8
+
+	- Changement des couleurs des tuile et du header
+	- Ajout d'une ancre sur les longues pages
+	- Ajout d'un compteur de visites
+	- Renommage de l'onglet Discord
+	- Ajout du TimeZone pour le TrioLake
+
