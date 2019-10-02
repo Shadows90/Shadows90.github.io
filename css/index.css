@@ -85,6 +85,10 @@ ul.navbar li a:hover {
   background-color: #2AA937;
   text-decoration: none;
 }
+.activeRaid {
+ background-color: #2AA937;
+ text-decoration: none;
+}
 ul.bonus {
   list-style-type: none;
   font-family: Verdana;
