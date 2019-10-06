@@ -82,12 +82,10 @@ ul.navbar li a:hover {
   text-decoration: none;
 }
 .active {
-  background-color: #2AA937;
-  text-decoration: none;
+  background-color: #8C659F;
 }
 .activeRaid {
- background-color: #2AA937;
- text-decoration: none;
+ background-color: #8C659F;
 }
 ul.bonus {
   list-style-type: none;
