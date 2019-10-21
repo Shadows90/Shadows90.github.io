@@ -1,0 +1,38 @@
+ Mon GPX pour Budapest :
+
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="UltraSnipe">
+    <trk>
+        <name>0</name>
+        <trkseg>
+            <trkpt lat="47.531391" lon="19.052880">
+            </trkpt>
+            <trkpt lat="47.531192" lon="19.052343">
+            </trkpt>
+            <trkpt lat="47.530792" lon="19.052025">
+            </trkpt>
+            <trkpt lat="47.530313" lon="19.051810">
+            </trkpt>
+            <trkpt lat="47.529545" lon="19.051592">
+            </trkpt>
+            <trkpt lat="47.529083" lon="19.051393">
+            </trkpt>
+            <trkpt lat="47.528693" lon="19.050773">
+            </trkpt>
+            <trkpt lat="47.528884" lon="19.049640">
+            </trkpt>
+            <trkpt lat="47.529728" lon="19.049454">
+            </trkpt>
+            <trkpt lat="47.530289" lon="19.050100">
+            </trkpt>
+            <trkpt lat="47.530553" lon="19.050490">
+            </trkpt>
+            <trkpt lat="47.530825" lon="19.051382">
+            </trkpt>
+            <trkpt lat="47.530884" lon="19.051679">
+            </trkpt>
+            <trkpt lat="47.531389" lon="19.052016">
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>

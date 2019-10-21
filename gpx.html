@@ -1,0 +1,249 @@
+<html>
+<head>
+<meta charset="utf-8">
+  	<title>
+		Ralts 
+  	</title>
+  	<meta name="author" content="">
+  	<meta name="description" content="">
+  	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  	<link rel="shortcut icon" href="./shinyRalts.ico" type="image/x-icon"/>
+    <link rel="icon" href="./shinyRalts.ico" type="image/ico"/>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
+  	<link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/test.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" type="text/javascript"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data-2012-2022.js" type="text/javascript"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>  
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136695171-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'UA-136695171-1');
+	</script>
+</head>
+<body>
+
+<div class="top">
+	<h2>Local Time</h2>
+  <div id="displayMoment"></div>
+  <br>
+  <p style="text-align: justify; font-size: 12px;"><strong>* Local time is derived from your smarthphone / desktop time</strong><p>
+</div>
+
+<ul class="navbar">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="timeZone.html">Time Zones</a></li>
+  <li><a href="timers.html">Timers</a></li>
+  <li><a class="active" href="gpx.html">GPX Routes</a></li>
+  <li><a href="cooldown.html">CD Calculator</a></li>
+  <li><a href="tzguess.html">TZ Guess</a></li>
+  <li><a href="ralts.html">Ralts</a></li>
+  <li><a href="faq.html">FAQ</a></li>
+</ul>
+
+<div class="banner">
+<i>⚠️ Ces GPX sont fournis par notre équipe.</i>
+</div>
+
+
+les hoaraies de chaque CD seront a refaire une semaine avant <br>
+certaines zone nont pas de gpx , dautres n'ont qu'une version <br>
+<ul>
+  <li>
+  	<h5><span class="flag-icon flag-icon-nz"></span> <strong>(CD: 23h-02h) Auckland, Nouvelle Zélande </strong></h5>
+  	<a href="./resources/gpx/Auckland.gpx" download>
+  		<button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+  	</a>
+    <a href="./resources/gpx/Auckland.txt" download>
+  		<button class="btn"><i class="fa fa-download"></i> Version iOS (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-au"></span> <strong>(CD: 01h-03h) Sydney, Australie</strong></h5>
+    <a href="./resources/gpx/Sydney.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Sydney.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-kr"></span> <strong>(CD: 03h-06h) Séoul, Korée</strong></h5>
+    <a href="./resources/gpx/Seoul.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Seoul.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-sg"></span> <strong>(CD: 04h-07h) Singapour, Japon</strong></h5>
+    <a href="./resources/gpx/Singapour.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Singapour.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-jp"></span> <strong>Taipei, Japon</strong></h5>
+    <a href="./resources/gpx/Taipei.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Taipei.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Version iOS (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-in"></span> <strong>(CD: 6h30-9h30) New Delhi, Inde</strong></h5>
+    <a href="./resources/gpx/New-delhi.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/New-delhi.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-us"></span> <strong>(CD: 8h-11h) Dubai, Emirates</strong></h5>
+    <a href="./resources/gpx/Dubai.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Dubai.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-us"></span> <strong>(CD: 9h-12h) Athènes, Grèce</strong></h5>
+    <a href="./resources/gpx/Athenes.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Athenes.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-tr"></span> <strong>(CD: 9h-12h) Istanbul, Turquie</strong></h5>
+    <a href="./resources/gpx/Turquie.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Turquie.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-dk"></span> <strong>(CD: 11h-14h) Copenhague, Danemark</strong></h5>
+    <a href="./resources/gpx/Copenhague.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Copenhague.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-hu"></span> <strong>(CD: 11h-14h) Budapest, Hongrie</strong></h5>
+    <a href="./resources/gpx/Budapest.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Budapest.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Version iOS (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-fr"></span> <strong>(CD: 11h-14h) Paris, France</strong></h5>
+    <a href="./resources/gpx/Paris_tuileries.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Paris_tuileries.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Version iOS (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-br"></span> <strong>(CD: 15h-18h) Brésil</strong></h5>
+    <a href="./resources/gpx/Bresil.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Bresil.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-us"></span> <strong>(CD: 16h-19h) New York , USA</strong></h5>
+    <a href="./resources/gpx/New-York.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/New-York.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-us"></span> <strong>(CD: 17h-20h) Chicago, USA</strong></h5>
+    <a href="./resources/gpx/Chicago.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Chicago.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-us"></span> <strong>(CD: 17h-20h) Chicago Navy Pier, USA</strong></h5>
+    <a href="./resources/gpx/Chicago_navy.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/Chicago_navy.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+  <li>
+    <h5><span class="flag-icon flag-icon-us"></span> <strong>(CD: 19h-22h) San Francisco, USA</strong></h5>
+    <a href="./resources/gpx/San-Francisco.gpx" download>
+      <button class="btn"><i class="fa fa-download"></i> Version Android (<i class="fa fa-android"></i>)</button>
+    </a>
+    <a href="./resources/gpx/San-Francisco.txt" download>
+      <button class="btn"><i class="fa fa-download"></i> Bientot (<i class="fa fa-apple"></i>)</button>
+    </a>
+  </li>
+  <br>
+
+
+</ul>
+
+<script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>
