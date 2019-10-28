@@ -1,12 +1,12 @@
 .top{
 	margin: auto;
-  width: 100%;
+        width: 100%;
 	text-align: center;
 	border: 1px solid #8C659F;
 	color: #ffffff;
 	background-color: #8C659F;
 	padding: 10px;
-  font-family: Verdana;
+        font-family: Verdana;
 }
 .top-compteur{
   width: 100%;
@@ -55,9 +55,9 @@ ul.navbar {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: -webkit-sticky; /*Safari*/
-  position: sticky;
-  top: 0;
+  /*position: -webkit-sticky; */ /*Safari*/
+  /*position: sticky;*/
+   top: 0;
 }
 .navbar img{
   margin: 1px;

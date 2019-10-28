@@ -75,7 +75,7 @@ function countdownTimer() {
 				hours = Math.floor((distance % (60 * 60 * 24)) / (60 * 60));
 				minutes = Math.floor((distance % (60 * 60)) / (60));
 				seconds = Math.floor((distance % (60)) / 1);
-				document.getElementById(buttonTimerId[cnt]).innerHTML = "L'évenement commence dans: " + ("0" + days).slice(-2) + "j " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";		
+				document.getElementById(buttonTimerId[cnt]).innerHTML = "L'évenement commence dans " + ("0" + days).slice(-2) + "j " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";		
 			}
 			if (distance < 0 && distance >= eventStartTime.unix() - eventStopTime.unix()) {
 				document.getElementById(buttonId[cnt]).style.backgroundColor="#68C6FF";
@@ -84,7 +84,7 @@ function countdownTimer() {
 				hours = Math.floor((distance % (60 * 60 * 24)) / (60 * 60));
 				minutes = Math.floor((distance % (60 * 60)) / (60));
 				seconds = Math.floor((distance % (60)) / 1);
-				document.getElementById(buttonTimerId[cnt]).innerHTML = "Evenement en cours<br> Fin d'évenement dans: " + ("0" + days).slice(-2) + "j " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";
+				document.getElementById(buttonTimerId[cnt]).innerHTML = "Evenement en cours<br> Se termine dans " + ("0" + days).slice(-2) + "j " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";
 			}
 			if (distance < eventStartTime.unix() - eventStopTime.unix()) {
 				document.getElementById(buttonId[cnt]).active = false;

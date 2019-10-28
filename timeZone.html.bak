@@ -2,18 +2,18 @@
 <html>
 <head>
 <meta charset="utf-8">
-  	<title>Community Day Kraknoix</title>
+  	<title>Community Day Ouisticram</title>
   	<meta name="author" content="">
   	<meta name="description" content="">
   	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
-  	<link rel="shortcut icon" href="./resources/pokemon/kraknoix.png" type="image/x-icon"/>
-        <link rel="icon" href="./resources/pokemon/kraknoix.png" type="image/ico"/>
+  	<link rel="shortcut icon" href="./resources/pokemon/ouisticram.png" type="image/x-icon"/>
+        <link rel="icon" href="./resources/pokemon/ouisticram.png" type="image/ico"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+  	<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/> -->
   	<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
   	<link rel="stylesheet" type="text/css" href="css/index.css">
   	<link rel="stylesheet" type="text/css" href="css/timeZone.css">
-  	<link rel="stylesheet" type="text/css" href="css/to-top.css">
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" type="text/javascript"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data-2012-2022.js" type="text/javascript"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>  
@@ -44,7 +44,7 @@
 
 <ul class="navbar">	
   <li><a href="index.html">Accueil</a></li>
-  <li><a class="active" href="timeZone.html">Time Zones (Kraknoix)</a></li>
+  <li><a class="active" href="timeZone.html">Time Zones (Ouisticram)</a></li>
   <li><a href="cooldown.html">CD Calculateur</a></li>
   <li><a href="shiny.html">Liste Shiny</a></li>
   <li><a href="comday.html">EX Community</a></li>
@@ -60,6 +60,11 @@
     		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
 		</button>
 	</div>
+	<div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Apia&nbsp;&nbsp;<span class="flag-icon flag-icon-ws"></span>&nbsp;&nbsp;-13.83136,-171.76640
+		<button class="btn" data-clipboard-text="-13.83136,-171.76640">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		</button>
+	</div>
 </div>
 
 <button class="tzbar accordion" id="timerp13"><strong>UTC +13</strong></button>
@@ -70,17 +75,7 @@
     		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
 		</button>
 	</div>
-    <div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Apia&nbsp;&nbsp;<span class="flag-icon flag-icon-ws"></span>&nbsp;&nbsp;-13.83136,-171.76640
-		<button class="btn" data-clipboard-text="-13.83136,-171.76640">
-    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
-		</button>
-	</div>
-</div>
-
-<button class="tzbar accordion" id="timerp12"><strong>UTC +12</strong></button>
-<div class="panel">
-	<div id="displaytimerp12" class="tztimer"></div>
-    <div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Wellington&nbsp;&nbsp;<span class="flag-icon flag-icon-nz"></span>&nbsp;&nbsp;-41.28249,174.76913
+	<div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Wellington&nbsp;&nbsp;<span class="flag-icon flag-icon-nz"></span>&nbsp;&nbsp;-41.28249,174.76913
 		<button class="btn" data-clipboard-text="-41.28249,174.76913">
     		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
 		</button>
@@ -91,17 +86,32 @@
 		</button>
 	</div>
 </div>
+
+<button class="tzbar accordion" id="timerp12"><strong>UTC +12</strong></button>
+<div class="panel">
+	<div id="displaytimerp12" class="tztimer"></div>
+</div>
           
 <button class="tzbar accordion" id="timerp11"><strong>UTC +11</strong></button>
 <div class="panel">
 	<div id="displaytimerp11" class="tztimer"></div>
-    <div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Noumea&nbsp;&nbsp;<span class="flag-icon flag-icon-nc"></span>&nbsp;&nbsp;-22.26077,166.44600
+        <div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Noumea&nbsp;&nbsp;<span class="flag-icon flag-icon-nc"></span>&nbsp;&nbsp;-22.26077,166.44600
 		<button class="btn" data-clipboard-text="-22.26077,166.44600">
     		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
 		</button>
 	</div>
 	<div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Magadan&nbsp;&nbsp;<span class="flag-icon flag-icon-ru"></span>&nbsp;&nbsp;59.55646,150.81718
 		<button class="btn" data-clipboard-text="59.55646,150.81718">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		</button>
+	</div>
+		<div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;*Sydney&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;-33.86302,151.21535
+		<button class="btn" data-clipboard-text="-33.86302,151.21535">
+    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
+		</button>
+	</div>
+	<div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Melbourne&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;-37.82149,144.97123
+		<button class="btn" data-clipboard-text="-37.82149,144.97123">
     		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
 		</button>
 	</div>
@@ -120,38 +130,14 @@
     		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
 		</button>
 	</div>
-	<div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;*Sydney&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;-33.86302,151.21535
-		<button class="btn" data-clipboard-text="-33.86302,151.21535">
-    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
-		</button>
-	</div>
-	<div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Canberra&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;-35.29810,149.13243
-		<button class="btn" data-clipboard-text="-35.29810,149.13243">
-    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
-		</button>
-	</div>
-	<div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Melbourne&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;-37.82149,144.97123
-		<button class="btn" data-clipboard-text="-37.82149,144.97123">
-    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
-		</button>
-	</div>
-	<div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Hobart&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;-42.86583,147.33182
-		<button class="btn" data-clipboard-text="-42.86583,147.33182">
-    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
-		</button>
-	</div>
 </div>
 
 <button class="tzbar accordion" id="timerp9p5"><strong>UTC +09½</strong></button>
 <div class="panel">
 	<div id="displaytimerp9p5" class="tztimer"></div>
-    <div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Adelaide&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;-34.91880,138.61168
-		<button class="btn" data-clipboard-text="-34.91880,138.61168">
-    		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
-		</button>
-	</div>
-</div>
+</div> 
 
+<!-- tout le japon passera en UTC+10 des le 27/10 -->
 <button class="tzbar accordion" id="timerp09"><strong>UTC +09</strong></button>
 <div class="panel">
 	<div id="displaytimerp09" class="tztimer"></div>
@@ -190,7 +176,7 @@
     		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
 		</button>
 	</div>
-    <div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Perth&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;-31.95232,115.88080
+        <div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Perth&nbsp;&nbsp;<span class="flag-icon flag-icon-au"></span>&nbsp;&nbsp;-31.95232,115.88080
 		<button class="btn" data-clipboard-text="-31.95232,115.88080">
     		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
 		</button>
@@ -216,7 +202,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerp07"><strong>UTC +07</strong></button>
 <div class="panel">
 	<div id="displaytimerp07" class="tztimer"></div>
@@ -236,7 +221,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerp6p5"><strong>UTC +06½</strong></button>
 <div class="panel">
 	<div id="displaytimerp6p5" class="tztimer"></div>
@@ -246,7 +230,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerp06"><strong>UTC +06</strong></button>
 <div class="panel">
 	<div id="displaytimerp06" class="tztimer"></div>
@@ -261,7 +244,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerp5p3"><strong>UTC +05¾</strong></button>
 <div class="panel">
 	<div id="displaytimerp5p3" class="tztimer"></div>
@@ -271,7 +253,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerp5p5"><strong>UTC +05½</strong></button>
 <div class="panel">
 	<div id="displaytimerp5p5" class="tztimer"></div>
@@ -296,7 +277,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerp05"><strong>UTC +05</strong></button>
 <div class="panel">
 	<div id="displaytimerp05" class="tztimer"></div>
@@ -316,7 +296,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerp4p5"><strong>UTC +04½</strong></button>
 <div class="panel">
 	<div id="displaytimerp4p5" class="tztimer"></div>
@@ -326,7 +305,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerp04"><strong>UTC +04</strong></button>
 <div class="panel">
 	<div id="displaytimerp04" class="tztimer"></div>
@@ -356,7 +334,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerp03"><strong>UTC +03</strong></button>
 <div class="panel">
 	<div id="displaytimerp03" class="tztimer"></div>
@@ -396,7 +373,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerp02"><strong>UTC +02</strong></button>
 <div class="panel">
 	<div id="displaytimerp02" class="tztimer"></div>
@@ -420,7 +396,7 @@
     		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
 		</button>
 	</div>
-        <div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Cape Town&nbsp;&nbsp;<span class="flag-icon flag-icon-za"></span>&nbsp;&nbsp;-33.90666,18.41900
+    <div style="color: #ffffff; background-color: #666666;">&nbsp;&nbsp;Cape Town&nbsp;&nbsp;<span class="flag-icon flag-icon-za"></span>&nbsp;&nbsp;-33.90666,18.41900
 		<button class="btn" data-clipboard-text="-33.90666,18.41900">
     		<i class="fa fa-clipboard fa-sm" aria-hidden="true" style="color: #5EB750;"></i>
 		</button>
@@ -461,7 +437,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerp01"><strong>UTC +01</strong></button>
 <div class="panel">
 	<div id="displaytimerp01" class="tztimer"></div>
@@ -486,7 +461,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerp00"><strong>UTC +00</strong></button>
 <div class="panel">
 	<div id="displaytimerp00" class="tztimer"></div>
@@ -501,7 +475,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm01"><strong>UTC -01</strong></button>
 <div class="panel">
 	<div id="displaytimerm01" class="tztimer"></div>
@@ -511,7 +484,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm02"><strong>UTC -02</strong></button>
 <div class="panel">
 	<div id="displaytimerm02" class="tztimer"></div>
@@ -521,7 +493,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm2p5"><strong>UTC -02½</strong></button>
 <div class="panel">
 	<div id="displaytimerm2p5" class="tztimer"></div>
@@ -531,7 +502,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm03"><strong>UTC -03</strong></button>
 <div class="panel">
 	<div id="displaytimerm03" class="tztimer"></div>
@@ -561,7 +531,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm04"><strong>UTC -04</strong></button>
 <div class="panel">
 	<div id="displaytimerm04" class="tztimer"></div>
@@ -611,7 +580,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm05"><strong>UTC -05</strong></button>
 <div class="panel">
 	<div id="displaytimerm05" class="tztimer"></div>
@@ -661,7 +629,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm06"><strong>UTC -06</strong></button>
 <div class="panel">
 	<div id="displaytimerm06" class="tztimer"></div>
@@ -711,7 +678,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm07"><strong>UTC -07</strong></button>
 <div class="panel">
 	<div id="displaytimerm07" class="tztimer"></div>
@@ -751,7 +717,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm08"><strong>UTC -08</strong></button>
 <div class="panel">
 	<div id="displaytimerm08" class="tztimer"></div>
@@ -766,7 +731,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm09"><strong>UTC -09</strong></button>
 <div class="panel">
 	<div id="displaytimerm09" class="tztimer"></div>
@@ -776,7 +740,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm10"><strong>UTC -10</strong></button>
 <div class="panel">
 	<div id="displaytimerm10" class="tztimer"></div>
@@ -796,7 +759,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm11"><strong>UTC -11</strong></button>
 <div class="panel">
 	<div id="displaytimerm11" class="tztimer"></div>
@@ -811,7 +773,6 @@
 		</button>
 	</div>
 </div>
-
 <button class="tzbar accordion" id="timerm12"><strong>UTC -12</strong></button>
 <div class="panel">
 	<div id="displaytimerm12" class="tztimer"></div>
