@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="iSpoofer">
+	<trk>
+		<name>0</name>
+		<trkseg>
+			<trkpt lat="38.693546" lon="-9.301510">
+			</trkpt>
+			<trkpt lat="38.694547" lon="-9.299902">
+			</trkpt>
+			<trkpt lat="38.695251" lon="-9.300919">
+			</trkpt>
+			<trkpt lat="38.695397" lon="-9.300336">
+			</trkpt>
+			<trkpt lat="38.695655" lon="-9.300020">
+			</trkpt>
+			<trkpt lat="38.696528" lon="-9.300430">
+			</trkpt>
+			<trkpt lat="38.697297" lon="-9.300040">
+			</trkpt>
+			<trkpt lat="38.698831" lon="-9.300685">
+			</trkpt>
+			<trkpt lat="38.700176" lon="-9.300790">
+			</trkpt>
+			<trkpt lat="38.701319" lon="-9.300295">
+			</trkpt>
+			<trkpt lat="38.701522" lon="-9.301926">
+			</trkpt>
+			<trkpt lat="38.702268" lon="-9.301749">
+			</trkpt>
+			<trkpt lat="38.702802" lon="-9.302559">
+			</trkpt>
+			<trkpt lat="38.704621" lon="-9.300887">
+			</trkpt>
+			<trkpt lat="38.704952" lon="-9.302049">
+			</trkpt>
+			<trkpt lat="38.704094" lon="-9.302281">
+			</trkpt>
+			<trkpt lat="38.703874" lon="-9.303524">
+			</trkpt>
+			<trkpt lat="38.703117" lon="-9.303094">
+			</trkpt>
+			<trkpt lat="38.702920" lon="-9.302937">
+			</trkpt>
+			<trkpt lat="38.702256" lon="-9.302857">
+			</trkpt>
+			<trkpt lat="38.702445" lon="-9.303666">
+			</trkpt>
+			<trkpt lat="38.701435" lon="-9.304053">
+			</trkpt>
+			<trkpt lat="38.700516" lon="-9.304625">
+			</trkpt>
+			<trkpt lat="38.701108" lon="-9.302304">
+			</trkpt>
+			<trkpt lat="38.699723" lon="-9.303365">
+			</trkpt>
+			<trkpt lat="38.700761" lon="-9.301525">
+			</trkpt>
+			<trkpt lat="38.699785" lon="-9.301957">
+			</trkpt>
+			<trkpt lat="38.699087" lon="-9.301276">
+			</trkpt>
+			<trkpt lat="38.697550" lon="-9.300900">
+			</trkpt>
+			<trkpt lat="38.696853" lon="-9.302276">
+			</trkpt>
+			<trkpt lat="38.695824" lon="-9.302025">
+			</trkpt>
+			<trkpt lat="38.693374" lon="-9.302363">
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

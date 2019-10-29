@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="iSpoofer">
+	<trk>
+		<name>0</name>
+		<trkseg>
+			<trkpt lat="-23.548731" lon="-46.655758">
+			</trkpt>
+			<trkpt lat="-23.549350" lon="-46.655956">
+			</trkpt>
+			<trkpt lat="-23.549155" lon="-46.656299">
+			</trkpt>
+			<trkpt lat="-23.549371" lon="-46.656385">
+			</trkpt>
+			<trkpt lat="-23.550195" lon="-46.656552">
+			</trkpt>
+			<trkpt lat="-23.549684" lon="-46.657804">
+			</trkpt>
+			<trkpt lat="-23.550280" lon="-46.657289">
+			</trkpt>
+			<trkpt lat="-23.550311" lon="-46.658179">
+			</trkpt>
+			<trkpt lat="-23.550808" lon="-46.657877">
+			</trkpt>
+			<trkpt lat="-23.550618" lon="-46.658591">
+			</trkpt>
+			<trkpt lat="-23.550691" lon="-46.659022">
+			</trkpt>
+			<trkpt lat="-23.550970" lon="-46.659392">
+			</trkpt>
+			<trkpt lat="-23.550969" lon="-46.659107">
+			</trkpt>
+			<trkpt lat="-23.551439" lon="-46.659132">
+			</trkpt>
+			<trkpt lat="-23.551433" lon="-46.658907">
+			</trkpt>
+			<trkpt lat="-23.551917" lon="-46.658103">
+			</trkpt>
+			<trkpt lat="-23.551254" lon="-46.658426">
+			</trkpt>
+			<trkpt lat="-23.550917" lon="-46.658220">
+			</trkpt>
+			<trkpt lat="-23.551618" lon="-46.657615">
+			</trkpt>
+			<trkpt lat="-23.550962" lon="-46.657635">
+			</trkpt>
+			<trkpt lat="-23.550895" lon="-46.657160">
+			</trkpt>
+			<trkpt lat="-23.551225" lon="-46.656928">
+			</trkpt>
+			<trkpt lat="-23.550694" lon="-46.656917">
+			</trkpt>
+			<trkpt lat="-23.550483" lon="-46.656807">
+			</trkpt>
+			<trkpt lat="-23.551197" lon="-46.656597">
+			</trkpt>
+			<trkpt lat="-23.550866" lon="-46.655964">
+			</trkpt>
+			<trkpt lat="-23.550221" lon="-46.656194">
+			</trkpt>
+			<trkpt lat="-23.549968" lon="-46.655758">
+			</trkpt>
+			<trkpt lat="-23.550562" lon="-46.655572">
+			</trkpt>
+			<trkpt lat="-23.550416" lon="-46.655153">
+			</trkpt>
+			<trkpt lat="-23.549722" lon="-46.655190">
+			</trkpt>
+			<trkpt lat="-23.549323" lon="-46.655424">
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>
