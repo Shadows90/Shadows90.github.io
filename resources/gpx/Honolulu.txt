@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="iSpoofer">
+	<trk>
+		<name>0</name>
+		<trkseg>
+			<trkpt lat="21.271089" lon="-157.821560">
+			</trkpt>
+			<trkpt lat="21.270389" lon="-157.821392">
+			</trkpt>
+			<trkpt lat="21.270538" lon="-157.821034">
+			</trkpt>
+			<trkpt lat="21.269940" lon="-157.820476">
+			</trkpt>
+			<trkpt lat="21.270392" lon="-157.820064">
+			</trkpt>
+			<trkpt lat="21.270741" lon="-157.819031">
+			</trkpt>
+			<trkpt lat="21.270015" lon="-157.819222">
+			</trkpt>
+			<trkpt lat="21.269790" lon="-157.818815">
+			</trkpt>
+			<trkpt lat="21.270982" lon="-157.818416">
+			</trkpt>
+			<trkpt lat="21.270866" lon="-157.817935">
+			</trkpt>
+			<trkpt lat="21.269912" lon="-157.817754">
+			</trkpt>
+			<trkpt lat="21.269871" lon="-157.817129">
+			</trkpt>
+			<trkpt lat="21.270871" lon="-157.817289">
+			</trkpt>
+			<trkpt lat="21.270607" lon="-157.816608">
+			</trkpt>
+			<trkpt lat="21.272161" lon="-157.817195">
+			</trkpt>
+			<trkpt lat="21.271599" lon="-157.818257">
+			</trkpt>
+			<trkpt lat="21.272319" lon="-157.818465">
+			</trkpt>
+			<trkpt lat="21.271388" lon="-157.819554">
+			</trkpt>
+			<trkpt lat="21.271127" lon="-157.820616">
+			</trkpt>
+			<trkpt lat="21.271562" lon="-157.821609">
+			</trkpt>
+			<trkpt lat="21.271364" lon="-157.822374">
+			</trkpt>
+			<trkpt lat="21.271113" lon="-157.822147">
+			</trkpt>
+			<trkpt lat="21.270480" lon="-157.822435">
+			</trkpt>
+			<trkpt lat="21.268483" lon="-157.822395">
+			</trkpt>
+			<trkpt lat="21.267134" lon="-157.821292">
+			</trkpt>
+			<trkpt lat="21.268647" lon="-157.820910">
+			</trkpt>
+			<trkpt lat="21.269689" lon="-157.821874">
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>
