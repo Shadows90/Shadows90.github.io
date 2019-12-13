@@ -27,8 +27,19 @@
 </head>
 <body>
 
+<div id="google_translate_element"></div> 
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script type="text/javascript">  
+  function googleTranslateElementInit() {  
+      new google.translate.TranslateElement( 
+          {pageLanguage: 'en'},  
+          'google_translate_element' 
+      );  
+  }  
+</script>
+
 <div class="top">
-  <!-- <img src="./resources/images/mewtwo.png" alt="Mewtwo"> -->
   <h2>Heure Locale</h2>
   <div id="displayMoment"></div>
   <br>
@@ -39,7 +50,7 @@
 
 <ul class="navbar">
   <li><a href="index.html">Accueil</a></li>
-  <li><a href="raid.html">Journée Raid</a></li>
+<!--   <li><a href="raid.html">Journée Raid</a></li> -->
   <li><a href="timeZone.html">Time Zones CD</a></li>
   <li><a class="active" style="background-color:#8C659F" href="cooldown.html">CD Calculateur</a></li>
   <li><a href="shiny.html">Liste Shiny</a></li>
