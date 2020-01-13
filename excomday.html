@@ -56,12 +56,13 @@
 
 <ul class="navbar">
   <li><a href="index.html">Accueil</a></li>
-  <li><a href="timeZone.html">Time Zones</a></li>
+  <li><a href="comday-nord.html">Hémisphère Nord</a></li>
+  <li><a href="comday-sud.html">Hémisphère Sud</a></li>
   <li><a href="cooldown.html">CD Calculateur</a></li>
-  <li><a href="shiny.html">Liste Shiny</a></li>
-  <li><a class="active" style="background-color:#8C659F" href="comday.html">EX Community</a></li>
+<!--   <li><a href="shiny.html">Liste Shiny</a></li> -->
+  <li><a class="active" style="background-color:#8C659F" href="excomday.html">EX Community</a></li>
   <li><a href="gpx.html">GPX</a></li>
-  <li><a href="https://discordapp.com/invite/tmDpgbj/" id="discord" class="toplink" target="_blank">Notre Discord &nbsp;<img src="./resources/images/discord.png" alt="discord"></a></li>
+  <li><a href="https://discordapp.com/invite/yDDnEHd/" id="discord" class="toplink" target="_blank">Notre Discord &nbsp;<img src="./resources/images/discord.png" alt="discord"></a></li>
   <li><a href="https://www.twitch.tv/darbon12/videos" id="darbon" class="toplink" target="_blank">W. Darbon &nbsp;<img src="./resources/images/Quelorior.png"></a></li>
 </ul>
 
@@ -98,6 +99,37 @@
     <div class="page-bg"></div>
       <article class="sections">
         <section class="section section--events-list">
+
+          <!-- 16 novembre ouisticram -->
+          <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
+            <div class="events-list__events">
+              <div class="events-list__event ng-scope" ng-repeat="event in events.upcoming">
+                <a class="ng-scope">
+                  <div class="events-list__event__left">
+                    <div class="events-list__event__image">
+                      <img src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg" class="ng-scope" ng-if="event.image" ng-src="https://storage.googleapis.com/pokemongolive/events/058_170916_MAQ_084.jpg">
+                    </div>
+                    <div class="events-list__event__date">
+                      <span class="events-list__event__date__day ng-binding">19</span>
+                      <span class="events-list__event__date__month ng-binding">JANVIER</span>
+                    </div>
+                  </div>
+                  <div class="events-list__event__content">
+                    <div class="events-list__event__title ng-binding">Community Day : Tiplouf <br>
+                      <img src="./resources/pokemon/pokemon_icon_393_00_shiny.png.png">
+                      <img src="./resources/pokemon/pokemon_icon_394_00_shiny.png.png">
+                      <img src="./resources/pokemon/pokemon_icon_395_00_shiny.png.png"></div>
+                    <!-- <div class="events-list__event__body ng-binding">.</div> -->
+                  </div>
+                  <div class="events-list__event__right">
+                    <div class="events-list__event__logo">
+                      <img src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png" ng-src="https://storage.googleapis.com/pokemongolive/communityday/PKMN_Community-Day-logo2.png">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
 
           <!-- 16 novembre ouisticram -->
           <div class="events-list__upcoming ng-scope" ng-if="events.upcoming.length > 0">
