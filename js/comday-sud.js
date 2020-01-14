@@ -61,7 +61,7 @@ function countdownTimer() {
 	var seconds = 0;
 	for (var cnt = 0; cnt < allTimeZones.length; cnt++) {
 		var eventTime = moment.tz(startTime, allTimeZones[cnt]);
-		document.getElementById(buttonId[cnt]).innerHTML = "<strong>" + tzStrings[cnt] + "</strong><br>Le Community Day commence le: " + eventTime.local().format("DD-MM-YYYY HH:mm:ss") + " " + moment.tz(moment.tz.guess()).zoneAbbr();
+		document.getElementById(buttonId[cnt]).innerHTML = "<strong>" + tzStrings[cnt] + "</strong><br>L'évènement commence le: " + eventTime.local().format("DD-MM-YYYY HH:mm:ss") + " " + moment.tz(moment.tz.guess()).zoneAbbr();
 	}
 	continueTimer();
 	function continueTimer() {
@@ -75,7 +75,7 @@ function countdownTimer() {
 				hours = Math.floor((distance % (60 * 60 * 24)) / (60 * 60));
 				minutes = Math.floor((distance % (60 * 60)) / (60));
 				seconds = Math.floor((distance % (60)) / 1);
-				document.getElementById(buttonTimerId[cnt]).innerHTML = "Début dans " + ("0" + days).slice(-2) + "j " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";		
+				document.getElementById(buttonTimerId[cnt]).innerHTML = "Début dans " + ("0" + days).slice(-2) + "j " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";
 			}
 			if (distance < 0 && distance >= eventStartTime.unix() - eventStopTime.unix()) {
 				document.getElementById(buttonId[cnt]).style.backgroundColor="#68C6FF";
