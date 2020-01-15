@@ -42,7 +42,7 @@ countdownTimer();
 function countdownTimer() {
 	var startTime = "2020-01-19 11:00:00";
 	var stopTime = "2020-01-19 14:00:00";
-	var allTimeZones = ["Etc/GMT+12", "Etc/GMT+11", "Etc/GMT+10", "", "Etc/GMT+8", "Etc/GMT+7", "Etc/GMT+6", "Etc/GMT+5", "Etc/GMT+4", "Etc/GMT+3", "America/St_Johns", "Etc/GMT+1", "Etc/GMT+0",
+	var allTimeZones = ["Etc/GMT+12", "Etc/GMT+11", "Etc/GMT+10", "Etc/GMT+8", "Etc/GMT+7", "Etc/GMT+6", "Etc/GMT+5", "Etc/GMT+4", "Etc/GMT+3", "America/St_Johns", "Etc/GMT+1", "Etc/GMT+0",
 	"Etc/GMT-1", "Etc/GMT-2","Etc/GMT-3", "Etc/GMT-4", "Asia/Tehran", "Etc/GMT-5", "Asia/Kolkata", "Asia/Kathmandu", "Etc/GMT-6", "Asia/Yangon", "Etc/GMT-7", "Etc/GMT-8", "Etc/GMT-9", "Etc/GMT-11", "Etc/GMT-14"]  
 	var buttonId = ["timerm12", "timerm11", "timerm10", "timerm08", "timerm07", "timerm06", "timerm05", "timerm04", "timerm03", "timerm02p5", "timerm01", "timerp00", "timerp01", "timerp02",
 	"timerp03", "timerp04", "timerp4p5", "timerp05", "timerp5p5", "timerp5p3", "timerp06", "timerp6p5", "timerp07", "timerp08", "timerp09", "timerp11", "timerp14"];
