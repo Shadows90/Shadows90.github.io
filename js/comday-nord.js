@@ -51,7 +51,7 @@ function countdownTimer() {
 	var buttonTimerId = ["displaytimerm12", "displaytimerm11", "displaytimerm10", "displaytimerm09", "displaytimerm08", "displaytimerm07", "displaytimerm06", "displaytimerm05", "displaytimerm04", "displaytimerm03", "displaytimerm01", "displaytimerp00", "displaytimerp01", "displaytimerp02", "displaytimerp03",
 	"displaytimerp04", "displaytimerp4p5", "displaytimerp05", "displaytimerp5p5", "displaytimerp5p3", "displaytimerp06", "displaytimerp6p5", "displaytimerp07", "displaytimerp08", "displaytimerp09", "displaytimerp11", "displaytimerp14"];
 	
-	var tzStrings = ["UTC -12", "UTC -11", "UTC -10", ,"UTC -09", "UTC -08", "UTC -07", "UTC -06", "UTC -05", "UTC -04", "UTC -03", "UTC -01", "UTC +00", "UTC +01", "UTC +02",
+	var tzStrings = ["UTC -12", "UTC -11", "UTC -10", "UTC -09", "UTC -08", "UTC -07", "UTC -06", "UTC -05", "UTC -04", "UTC -03", "UTC -01", "UTC +00", "UTC +01", "UTC +02",
 	"UTC +03", "UTC +04", "UTC +04½", "UTC +05", "UTC+05½", "UTC+05¾", "UTC +06", "UTC +06½", "UTC +07", "UTC +08", "UTC +09", "UTC +11", "UTC +14"];
 	
 	var now = moment.utc();
