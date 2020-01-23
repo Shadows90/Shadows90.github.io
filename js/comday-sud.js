@@ -40,16 +40,20 @@ function setClass(els, className, fnName) {
 }
 countdownTimer();
 function countdownTimer() {
-	var startTime = "2020-01-19 15:00:00";
-	var stopTime = "2020-01-19 18:00:00";
+	var startTime = "2020-02-22 15:00:00";
+	var stopTime = "2020-02-22 18:00:00";
+
 	var allTimeZones = ["Etc/GMT+11", "Etc/GMT+10", "Etc/GMT+9", "Etc/GMT+5", 
-        "Etc/GMT+3", "Etc/GMT-3", "Etc/GMT-7", "Etc/GMT-8", "Etc/GMT-10", "Etc/GMT-11", "Etc/GMT-13", "Etc/GMT-14"];
+    "Etc/GMT+3", "Etc/GMT-3", "Etc/GMT-7", "Etc/GMT-8", "Etc/GMT-10", "Etc/GMT-11", "Etc/GMT-13", "Etc/GMT-14"];
+	
 	var buttonId = ["timerm11", "timerm10", "timerm09", "timerm05", "timerm03",
 	"timerp03", "timerp07", "timerp08", "timerp10", "timerp11", "timerp13", "timerp14"];
+	
 	var buttonTimerId = ["displaytimerm11", "displaytimerm10", "displaytimerm09", "displaytimerm08", "displaytimerm05",
 	"displaytimerm03", "displaytimerp03", "displaytimerp07", "displaytimerp10", "displaytimerp11", "displaytimerp13", "displaytimerp14"];
-	var tzStrings = ["UTC -11", "UTC -10", "UTC -09", "UTC -05", "UTC -03",
-	 "UTC +03", "UTC +07", "UTC +08", "UTC +10", "UTC +11", "UTC +13", "UTC +14"];
+	
+	var tzStrings = ["UTC -11", "UTC -10", "UTC -09", "UTC -05", "UTC -03", "UTC +03", "UTC +07", "UTC +08", "UTC +10", "UTC +11", "UTC +13", "UTC +14"];
+	
 	var now = moment.utc();
 	var distance = 0;
 	var days = 0;
