@@ -61,7 +61,7 @@ function countdownTimer() {
 	var seconds = 0;
 	for (var cnt = 0; cnt < allTimeZones.length; cnt++) {
 		var eventTime = moment.tz(startTime, allTimeZones[cnt]);
-		document.getElementById(buttonId[cnt]).innerHTML = "<strong>" + tzStrings[cnt] + "</strong><br>L'évenement commence le: " + eventTime.local().format("DD-MM-YYYY HH:mm:ss") + " " + moment.tz(moment.tz.guess()).zoneAbbr();
+		document.getElementById(buttonId[cnt]).innerHTML = "<strong>" + tzStrings[cnt] + "</strong><br>L'évenement commence le: " + eventTime.local().format("DD-MM-YYYY HH:mm:ss"); //+ " " + moment.tz(moment.tz.guess()).zoneAbbr();
 	}
 	continueTimer();
 	function continueTimer() {
