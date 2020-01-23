@@ -1,8 +1,8 @@
 resources
 css
+js
 Discord
 .backup
 .git
 .env
-js
-shiny.html
+*.html
