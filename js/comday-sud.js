@@ -43,16 +43,16 @@ function countdownTimer() {
 	var startTime = "2020-04-25 15:00:00";
 	var stopTime = "2020-04-25 18:00:00";
 
-	var allTimeZones = ["Etc/GMT+11", "Etc/GMT+10", "Etc/GMT+9", "Etc/GMT+5", "Etc/GMT+3", "Etc/GMT-3", "Etc/GMT-7", "Etc/GMT-8", "Etc/GMT-10", 
+	var allTimeZones = ["Etc/GMT+11", "Etc/GMT+10", "Etc/GMT+9", "Etc/GMT+5", "Etc/GMT+4", "Etc/GMT+3", "Etc/GMT-3", "Etc/GMT-7", "Etc/GMT-8", "Etc/GMT-10", 
 	"Etc/GMT-11", "Etc/GMT-12", "Etc/GMT-13"];
 	
-	var buttonId = ["timerm11", "timerm10", "timerm09", "timerm05", "timerm03", "timerp03", "timerp07", "timerp08", "timerp10", "timerp11", "timerp12", 
+	var buttonId = ["timerm11", "timerm10", "timerm09", "timerm05", "timerm04", "timerm03", "timerp03", "timerp07", "timerp08", "timerp10", "timerp11", "timerp12", 
 	"timerp13"];
 	
-	var buttonTimerId = ["displaytimerm11", "displaytimerm10", "displaytimerm09", "displaytimerm05", "displaytimerm03", "displaytimerp03", "displaytimerp07", 
+	var buttonTimerId = ["displaytimerm11", "displaytimerm10", "displaytimerm09", "displaytimerm04", "displaytimerm05", "displaytimerm03", "displaytimerp03", "displaytimerp07", 
 	"displaytimerp08", "displaytimerp10", "displaytimerp11", "displaytimerp12", "displaytimerp13"];
 	
-	var tzStrings = ["UTC -11", "UTC -10", "UTC -09", "UTC -05", "UTC -03", "UTC +03", "UTC +07", "UTC +08", "UTC +10", "UTC +11", "UTC +12", "UTC +13"];
+	var tzStrings = ["UTC -11", "UTC -10", "UTC -09", "UTC -05", "UTC -04", "UTC -03", "UTC +03", "UTC +07", "UTC +08", "UTC +10", "UTC +11", "UTC +12", "UTC +13"];
 	
 	var now = moment.utc();
 	var distance = 0;
