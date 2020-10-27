@@ -88,8 +88,8 @@ function countdownTimer() {
 				document.getElementById(buttonTimerId[cnt]).innerHTML = "En cours..<br>Se termine dans " + ("0" + days).slice(-2) + "j " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";
 			}
 			if (distance < eventStartTime.unix() - eventStopTime.unix()) {
-				document.getElementById(buttonId[cnt]).active = false;
-				document.getElementById(buttonId[cnt]).disabled = true;
+				document.getElementById(buttonId[cnt]).active = true;
+				document.getElementById(buttonId[cnt]).disabled = false;
 				document.getElementById(buttonId[cnt]).style.backgroundColor="#DDDDDD";
 				document.getElementById(buttonTimerId[cnt]).innerHTML = "Le Community Day est terminé.";
 			}
