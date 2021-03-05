@@ -40,7 +40,7 @@ function setClass(els, className, fnName) {
 }
 countdownTimer();
 function countdownTimer() {
-	var startTime = "2021-03-6 11:00:00";
+	var startTime = "2021-03-06 11:00:00";
 	var stopTime = "2021-03-06 17:00:00";
 	
 	var allTimeZones = ["Etc/GMT+12", "Etc/GMT+11", "Etc/GMT+10", "Etc/GMT+9", "Etc/GMT+8", "Etc/GMT+7", "Etc/GMT+6", "Etc/GMT+5", "Etc/GMT+4", "Etc/GMT+3", "America/St_Johns", "Etc/GMT+2", "Etc/GMT+1", "Etc/GMT+0",
